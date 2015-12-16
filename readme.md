@@ -3,8 +3,8 @@
 
 
 ```php
-
-require_once(dirname(__FILE__)."/inc/Init.php");
+//Se cambia a __DIR__ papu
+require_once(__DIR__."/inc/Init.php");
 
 	\PxNLibs\class::method();
 
