@@ -9,6 +9,7 @@ private static $resultado = array();
 public static function paisesynaciones(){
 
 $parsear = \PxNLibs\nacionalidades::$datos;
+
 $resultado = explode("|", $parsear); 
 for ($i=0; $i < count($resultado); $i++) { 
 
