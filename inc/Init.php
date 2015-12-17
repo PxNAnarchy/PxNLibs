@@ -11,7 +11,7 @@
 
   //Init
 
-  	require_once(dirname(__file__)."/libs/Nacionalidades.php");
+  	require_once(__DIR__."/libs/Nacionalidades.php");
 
 
 
